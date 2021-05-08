@@ -13,10 +13,10 @@ public class Main {
         // Relationships identified by 0 (no), 1 (yes) in second dimension.
         // Restrictions: Array has to be n x n.
         int[][] relations = {
-                {1, 1, 1, 0},
-                {0, 1, 1, 0},
-                {0, 0, 1, 1},
-                {0, 1, 1, 1},
+                {1, 1, 1, 0},   // Andres
+                {0, 1, 0, 0},   // Michael (Celebrity)
+                {0, 1, 1, 0},   // Oscar
+                {0, 1, 1, 1},   // Ana
         };
 
         // Restriction: names length has to be the same as relations array first dimension length.
